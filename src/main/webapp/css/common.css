@@ -1,15 +1,9 @@
-form {
-    margin: 0;
+body
+{
+background-color:#fdf5e6;
+margin:25px 20px;
+font:100% Arial,Helvetica,sans-serif;
 }
-
-table {
-    border: 1px solid #808080;
-}
-
-input[type=submit] {
-    width: 60px;
-}
-
-.error {
-    color: #8b0000;
+input{
+font:100% Arial,Helvetica,san-serif
 }

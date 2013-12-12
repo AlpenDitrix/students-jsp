@@ -3,13 +3,13 @@
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
 
     <servlet>
-        <servlet-name>bookmarks</servlet-name>
-        <servlet-class>BookmarksServlet</servlet-class>
+        <servlet-name>answers</servlet-name>
+        <servlet-class>AnswersServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>bookmarks</servlet-name>
-        <url-pattern>/bookmark/*</url-pattern>
+        <servlet-name>answers</servlet-name>
+        <url-pattern>/answer/*</url-pattern>
     </servlet-mapping>
 
 </web-app>
